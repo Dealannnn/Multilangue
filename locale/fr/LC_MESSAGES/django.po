@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-28 03:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: main/models.py:6
+msgid "Titre"
+msgstr "Titre"
+
+#: main/models.py:7
+msgid "Contenu"
+msgstr "Contenu"
+
+#: main/models.py:8
+msgid "Date de publication"
+msgstr "Date de publication"
+
+#: main/templates/main/articles_list.html:5
+#: main/templates/main/articles_list.html:8
+msgid "Liste des articles"
+msgstr "Liste des articles"
+
+#: main/templates/main/articles_list.html:13
+msgid "Publié le"
+msgstr "Publié le"
+
+#: main/templates/main/articles_list.html:15
+msgid "Aucun article disponible pour le moment"
+msgstr "Aucun article disponible pour le moment"
+
+msgid "Introduction à Django"
+msgstr "Introduction à Django"
+
+msgid "Django est un framework web open-source écrit en Python. Il permet de développer rapidement des applications web robustes et sécurisées."
+msgstr "Django est un framework web open-source écrit en Python. Il permet de développer rapidement des applications web robustes et sécurisées."
+
+msgid "Création d'une application Django"
+msgstr "Création d'une application Django"
+
+msgid "Dans cet article, nous allons vous guider à travers les étapes pour créer une application web simple en utilisant Django."
+msgstr "Dans cet article, nous allons vous guider à travers les étapes pour créer une application web simple en utilisant Django."
+
+msgid "Internationalisation dans Django"
+msgstr "Internationalisation dans Django"
+
+msgid "Django offre un support intégré pour la traduction de vos applications web. Découvrez comment rendre votre site multilingue avec Django."
+msgstr "Django offre un support intégré pour la traduction de vos applications web. Découvrez comment rendre votre site multilingue avec Django."
+

@@ -1,0 +1,32 @@
+{% load i18n %}
+{% load static %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% trans "Liste des articles" %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>{% trans "Liste des articles" %}</h1>
+        <p><a href="/en/" role="button">{% trans "Anglais" %}</a></p>
+        <p><a href="/fr/" role="button">{% trans "Français" %}</a></p>
+    </header>
+    <main>
+        <ul>
+        {% for article in articles %}
+            <li>
+                <h2>{%trans article.title %}</h2>
+                <p>{% trans article.content %}</p>
+                <p><em>{% trans "Publié le" %} {{ article.publication_date }}</em></p>
+            </li>
+        {% endfor %}
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Dylan WAZIRI</p>
+    </footer>
+</body>
+</html>
