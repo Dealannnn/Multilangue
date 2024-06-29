@@ -28,39 +28,33 @@ Clonez le dépôt GitHub sur votre machine locale :
 git clone https://github.com/your-username/multilang_site.git
 cd multilang_site
 ```
-2. Créer un environnement virtuel
 Créez et activez un environnement virtuel pour le projet :
 ```
 python -m venv env
 source env/bin/activate  # Sur macOS/Linux
 env\Scripts\activate  # Sur Windows
 ```
-3. Installer les dépendances
 Installez les dépendances listées dans requirements.txt :
 ```
 bash
 pip install -r requirements.txt
 ```
-4. Configurer la base de données
 Appliquez les migrations pour configurer la base de données SQLite par défaut :
 
 ```bash
 python manage.py migrate
 
 ```
-5. Collecter les fichiers statiques
 Collectez les fichiers statiques pour les servir correctement :
 
 ```bash
 python manage.py collectstatic
 ```
-6. Créer un superutilisateur
 Créez un superutilisateur pour accéder à l'admin Django :
 
 ```bash
 python manage.py createsuperuser
 ```
-7. Lancer le serveur de développement
 Lancez le serveur de développement pour vérifier que tout fonctionne correctement :
 
 ```bash
@@ -75,7 +69,6 @@ Accédez à l'interface d'administration à l'adresse http://127.0.0.1:8000/admi
 Vous pouvez changer la langue de l'interface utilisateur en utilisant le sélecteur de langue disponible sur le site.
 
 Déploiement
-8. Préparer les fichiers pour le déploiement
 Assurez-vous que toutes les modifications nécessaires sont commitées et poussées vers GitHub :
 
 ```bash
