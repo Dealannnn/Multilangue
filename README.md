@@ -4,6 +4,12 @@
 
 Ce projet est une application web simple développée avec Django. L'objectif principal est de créer une application multilingue, intégrant éventuellement des fonctionnalités utilisant des modèles de langage (LLM).
 
+## Temps passé et utilisation de ChatGPT
+**Internationalisation :**
+  - J'ai demandé des conseils à ChatGPT sur la configuration de l'internationalisation dans Django. Les instructions ont été suivies et ajustées pour ajouter les langues nécessaires.
+### Temps passé pour la réalisation du test
+4 jours
+
 ## Fonctionnalités
 
 - Gestion des articles de blog avec les champs `title`, `content`, et `publication_date`.
